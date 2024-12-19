@@ -42,6 +42,9 @@ Using markdown formatting, act as an Expert Article Writer. Write a detailed, lo
    - Avoid creating multiple sections with the same title, such as 'Conclusion'. Instead, ensure that each section has a unique title.
    - Don't use "introductions" or "conclusions" as section titles.
    - When prompted to expand the article, continue the story from where it left off.
+   - Do not create FAQs
+   - Don't repeat the same information multiple times in the article.
+   - Don't repeat the same image multiple times in the article.
 
 2. Content Requirements:
    - Each section should provide valuable insights, practical tips, and relevant examples.
@@ -358,3 +361,4 @@ if __name__ == '__main__':
                 print(f'Error publishing article: {article["title"]}, Status Code: {status_code}')
         else:
             print('Invalid input format. Please provide Title and Description separated by pipes.')
+
