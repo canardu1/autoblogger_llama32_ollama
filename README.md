@@ -25,3 +25,8 @@ There are still some issues with the FAQs (too many) and with the expansion feat
 
 
 I've added prompts to ask if you want to download images (Y/N) and for languages (IT Italian, EN English)
+
+
+Known problems:
+- it does add multiple "introductions" and "conclusion" restarting the article when trying to expand even if in the prompt i specified to not do this.
+- Somentimes does repeat paragraphs even if in the prompt is specified to not do this.
