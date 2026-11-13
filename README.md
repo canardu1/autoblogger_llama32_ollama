@@ -1,4 +1,7 @@
 # autoblogger_llama32_ollama
+
+[![Made by AtlasTech](https://img.shields.io/badge/Made%20by-AtlasTech-blue)](https://atlastech.it)
+
 # Autoblogger
 This project is an autoblogger that uses Ollama to automatically create and publish articles on a WordPress blog using a Flask interface.
 
